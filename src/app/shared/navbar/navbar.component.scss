@@ -1,0 +1,19 @@
+.navbar-portfolio {
+  padding-top: 2.5rem;
+}
+
+.title-portfolio {
+  font-size: 1.5rem;
+  color: var(--blue);
+}
+
+ul {
+  color: var(--gray-light);
+  font-weight: 500;
+
+  li {
+    cursor: pointer;
+    margin: 0 2rem;
+    list-style-type: none;
+  }
+}
