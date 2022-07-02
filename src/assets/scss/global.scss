@@ -1,0 +1,54 @@
+:root {
+  // color palete
+  --blue: #00d2df;
+  --dark: #121212;
+  --dark-200: #151515;
+
+  --gray-light: #c4c4c4;
+  --light: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 87.5%; // 14px
+  }
+
+  @media (max-width: 720px) {
+    font-size: 75%; // 12px
+  }
+}
+
+body {
+  background-color: var(--dark);
+  --webkit-font-smoothing: antialiased;
+  color: var(--light);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 600;
+}
+
+[disabled] {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
