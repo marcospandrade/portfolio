@@ -45,6 +45,12 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 
+    span {
+      font-size: 1.25rem;
+      font-weight: 500;
+      line-height: 1.5rem;
+    }
+
     .description-text {
       max-width: 35rem;
 
@@ -55,12 +61,18 @@ main {
       font-weight: 300;
     }
 
-    img {
+    .profile-photo {
       border-radius: 0.5rem;
+      border-left: 6px solid var(--blue);
     }
 
     .icons-social-media {
       margin: 2.5rem 0;
+
+      img {
+        cursor: pointer;
+        margin: 0 2rem 0 0;
+      }
     }
   }
 
