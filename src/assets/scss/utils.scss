@@ -1,0 +1,35 @@
+.btn-gradient-pink-to-purple {
+  position: relative;
+}
+
+.btn-gradient-pink-to-purple::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  padding: 2px; /* control the border thickness */
+  background: linear-gradient(to right, var(--pink), var(--purple-600));
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+
+.btn-gradient-purple-to-blue {
+  position: relative;
+}
+
+.btn-gradient-purple-to-blue::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  padding: 2px; /* control the border thickness */
+  background: linear-gradient(to right, var(--purple-200), var(--blue-300));
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
