@@ -8,7 +8,10 @@
       <p>DESENVOLVEDOR FULLSTACK JAVASCRIPT</p>
     </div>
     <div class="actions">
-      <button class="btn btn-gradient-purple-to-blue">
+      <button
+        class="btn btn-gradient-purple-to-blue"
+        (click)="openLink('linkedin')"
+      >
         <img
           src="../../../assets/icons/linkedin.svg"
           alt="Icone do Linkedin"
@@ -17,7 +20,10 @@
         />
         <span class="linkedin-text">LinkedIn</span>
       </button>
-      <button class="btn btn-gradient-pink-to-purple">
+      <button
+        class="btn btn-gradient-pink-to-purple"
+        (click)="openLink('github')"
+      >
         <img
           src="../../../assets/icons/github.svg"
           alt="Icone do Github"
@@ -36,6 +42,7 @@
     />
   </section>
 
+  <!-- About me -->
   <section
     data-aos="fade-right"
     data-aos-offset="150"
@@ -66,15 +73,22 @@
         <img
           src="../../../assets/icons/instagram-blue.svg"
           alt="Icone instagram"
+          (click)="openLink('instagram')"
         />
         <img
           src="../../../assets/icons/facebook-blue.svg"
           alt="Icone Facebook"
+          (click)="openLink('facebook')"
         />
-        <img src="../../../assets/icons/github-blue.svg" alt="Icone GitHub" />
+        <img
+          src="../../../assets/icons/github-blue.svg"
+          alt="Icone GitHub"
+          (click)="openLink('github')"
+        />
         <img
           src="../../../assets/icons/linkedin-blue.svg"
           alt="Icone Linkedin"
+          (click)="openLink('linkedin')"
         />
       </div>
 
@@ -98,6 +112,7 @@
     </div>
   </section>
 
+  <!-- Experiences -->
   <section
     data-aos="fade-right"
     data-aos-offset="200"
@@ -135,6 +150,7 @@
     </div>
   </section>
 
+  <!-- Projects -->
   <section
     data-aos="fade-right"
     data-aos-offset="200"
