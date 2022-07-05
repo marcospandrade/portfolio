@@ -6,7 +6,11 @@ import {
   trigger,
 } from "@angular/animations";
 import { Component, OnInit } from "@angular/core";
+import { catchError, delay, forkJoin, Observable, of, throwError } from "rxjs";
+
 import { linksSocialMedia } from "src/app/shared/utils/enums";
+import { HomeService } from "./service/home.service";
+import { Experience } from "../models/Experience";
 
 @Component({
   selector: "app-home",
@@ -20,9 +24,29 @@ import { linksSocialMedia } from "src/app/shared/utils/enums";
   ],
 })
 export class HomeComponent implements OnInit {
-  constructor() {}
+  listExperiences: Observable<Experience[]>;
 
-  ngOnInit(): void {}
+  constructor(private _homeService: HomeService) {
+    this.listExperiences = this._homeService.getExperiences();
+  }
+
+  ngOnInit(): void {
+    this.listExperiences.subscribe((data) => {
+      console.log(data);
+    });
+
+    const example = forkJoin({
+      // emit 'Hello' immediately
+      sourceOne: of("Hello"),
+      // emit 'World' after 1 second
+      sourceTwo: of("World").pipe(delay(1000)),
+      // throw error
+      sourceThree: throwError(() => "This will error"),
+    }).pipe(catchError((error) => of(error)));
+
+    // output: 'This will Error'
+    const subscribe = example.subscribe((val) => console.log(val));
+  }
 
   openLink(socialMedia: string): void {
     const addressSocialMedia =

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "company": "Americanas S.A",
+    "position": "Frontend Developer",
+    "startDate": "02-02-2022",
+    "endDate": "Atualmente",
+    "description": "I worked here as a Frontend Developer"
+  },
+  {
+    "id": 2,
+    "company": "Pitang Agile IT",
+    "position": "Frontend Developer",
+    "startDate": "02-02-2021",
+    "endDate": "02-02-2022",
+    "description": "I worked here as a Frontend Developer"
+  },
+  {
+    "id": 3,
+    "company": "Leiloaê",
+    "position": "Frontend Developer",
+    "startDate": "02-02-2021",
+    "endDate": "02-02-2022",
+    "description": "I worked here as a Frontend Developer"
+  },
+  {
+    "id": 4,
+    "company": "Leadfinder",
+    "position": "Frontend Developer",
+    "startDate": "02-02-2021",
+    "endDate": "02-02-2022",
+    "description": "I worked here as a Frontend Developer"
+  },
+  {
+    "id": 5,
+    "company": "Ciss S.A",
+    "position": "Frontend Developer",
+    "startDate": "02-02-2021",
+    "endDate": "02-02-2022",
+    "description": "I worked here as a Frontend Developer"
+  }
+]

@@ -12,6 +12,7 @@ main {
       margin-right: 0.75rem;
     }
   }
+
   section {
     min-height: 35rem;
   }
@@ -85,8 +86,7 @@ main {
 
   //section experiences
   .experiences {
-    margin-top: 6rem;
-    min-height: 30rem;
+    padding-top: 6rem;
 
     .wrapper {
       display: grid;

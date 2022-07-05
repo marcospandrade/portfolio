@@ -58,6 +58,16 @@ strong {
   font-weight: 600;
 }
 
+a {
+  text-decoration: none;
+  color: var(--light);
+}
+
+a:hover {
+  color: var(--blue);
+  transition: color 0.3s ease-in-out;
+}
+
 [disabled] {
   cursor: not-allowed;
   opacity: 0.6;
