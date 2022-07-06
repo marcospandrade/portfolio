@@ -1,0 +1,37 @@
+<section
+  data-aos="fade-right"
+  data-aos-offset="200"
+  data-aos-easing="ease-in-sine"
+  data-aos-duration="600"
+  class="experiences container"
+  id="experiences"
+>
+  <p class="section-title">EXPERIÊNCIA</p>
+
+  <div class="wrapper">
+    <div class="list-experiences">
+      <li
+        [ngClass]="experienceSelected.id === experience.id ? 'active' : ''"
+        *ngFor="let experience of listExperiences$ | async"
+        (click)="handleSelectExperience(experience)"
+      >
+        {{ experience.company }}
+      </li>
+    </div>
+
+    <div class="experience-content">
+      <header>
+        <h4>{{ experienceSelected.position }}</h4>
+        <span
+          >{{ experienceSelected.startDate }} -
+          {{ experienceSelected.endDate }}</span
+        >
+      </header>
+      <p class="subtitle-blue">{{ experienceSelected.company }}</p>
+
+      <p class="description-text">
+        {{ experienceSelected.description }}
+      </p>
+    </div>
+  </div>
+</section>

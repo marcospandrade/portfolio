@@ -1,4 +1,4 @@
-interface IExperience {
+export interface IExperience {
   id: 1;
   company: string;
   position: string;

@@ -1,0 +1,56 @@
+//section experiences
+.experiences {
+  padding-top: 6rem;
+  min-height: 35rem;
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    align-items: center;
+
+    padding-right: 5rem;
+    margin-top: 2.5rem;
+
+    .subtitle-blue {
+      margin: 2rem 0;
+    }
+
+    .list-experiences {
+      max-width: 15rem;
+
+      li {
+        cursor: pointer;
+        list-style-type: none;
+        padding: 1rem 2.25rem;
+        color: var(--gray-light);
+
+        &.active {
+          background-color: var(--dark-200);
+          border-left: 2px solid var(--blue);
+          color: var(--light);
+        }
+      }
+    }
+
+    .experience-content {
+      header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        h4 {
+          font-size: 1.5rem;
+          line-height: 1.875rem;
+          font-weight: 500;
+        }
+        span {
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+      }
+      .description-text {
+        max-width: 100%;
+      }
+    }
+  }
+}
