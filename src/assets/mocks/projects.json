@@ -13,7 +13,7 @@
       "Stripe"
     ],
     "url_repo": "https://github.com/marcospandrade/ignews-next",
-    "image": "/assets/images/projects/portfolio.png"
+    "image": "/assets/images/projects/ignews.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "description": "Blog utilizando os conceitos de SSR e SSG contendo testes unitários e integração com o Prismic CMS. Utilizado hoje para salvar conteúdos estudados.",
     "stacks": ["React js", "Next", "HTML", "CSS", "JS"],
     "url_repo": "https://github.com/marcospandrade/spacetraveling-blog",
-    "image": "/assets/images/projects/gameplay.png"
+    "image": "/assets/images/projects/spacetraveling.png"
   },
   {
     "id": 4,
@@ -52,7 +52,7 @@
     "name": "Vet4all",
     "description": "Plataforma de teleatendimento para veterinários e donos de pet. Com features de identificação de clínicas no mapa e chamada de vídeo em tempo real.",
     "stacks": ["React js", "React Native", "Android", "iOS", "GCP"],
-    "url_repo": "https://github.com/marcospandrade/spacetraveling-blog",
+    "url_repo": "https://vet4all.com.br",
     "image": "/assets/images/projects/vet4all.png"
   },
   {
