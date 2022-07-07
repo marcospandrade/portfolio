@@ -1,1 +1,45 @@
-<p>projects works!</p>
+<section
+  data-aos="fade-right"
+  data-aos-offset="200"
+  data-aos-easing="ease-in-sine"
+  data-aos-duration="600"
+  class="projects"
+  id="projects"
+>
+  <div class="container">
+    <p class="section-title">PROJETOS</p>
+
+    <div class="list-projects">
+      <div class="project" *ngFor="let project of listProjects$ | async">
+        <img
+          class="project-image"
+          src="{{ project.image }}"
+          alt="projeto"
+          width="600"
+          height="300"
+        />
+
+        <h3>{{ project.name }}</h3>
+
+        <p class="description-text">
+          {{ project.description }}
+        </p>
+
+        <div class="used-stacks">
+          <span>Tecnologias:</span>
+          <div>
+            <span *ngFor="let stack of project.stacks">=> {{ stack }} </span>
+          </div>
+        </div>
+
+        <button
+          class="btn btn-gradient-purple-to-blue"
+          (click)="handleRedirectToProject(project.url_repo)"
+        >
+          <img src="../../../assets/icons/link.svg" alt="Icone de Link" />
+          Visualizar
+        </button>
+      </div>
+    </div>
+  </div>
+</section>

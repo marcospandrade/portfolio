@@ -1,8 +1,8 @@
-import { first, firstValueFrom, map, Observable, Subject } from "rxjs";
+import { map, Observable } from "rxjs";
 import { Component, OnInit } from "@angular/core";
 import { HomeService } from "../../service/home.service";
 import { Experience, IExperience } from "src/app/features/models/Experience";
-import { i18nMetaToJSDoc } from "@angular/compiler/src/render3/view/i18n/meta";
+
 
 @Component({
   selector: "app-experiences",
