@@ -7,6 +7,19 @@
     margin-top: 5rem;
     margin-bottom: 6rem;
 
+    @media (max-width: 768px) {
+      .list-projects {
+        grid-template-columns: 1fr !important;
+        text-align: center;
+      }
+
+      .project-image {
+        border-left: 4px solid var(--blue);
+        width: 80%;
+        height: 40%;
+      }
+    }
+
     .list-projects {
       display: grid;
       grid-template-columns: 1fr 1fr;
