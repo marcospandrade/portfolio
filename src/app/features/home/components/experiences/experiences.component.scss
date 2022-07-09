@@ -3,13 +3,19 @@
   padding-top: 6rem;
   min-height: 35rem;
 
+  @media (max-width: 762px) {
+    .wrapper {
+      padding-right: 0 !important;
+    }
+  }
+
   .wrapper {
     display: grid;
     grid-template-columns: 2fr 5fr;
     align-items: center;
 
     padding-right: 5rem;
-    margin-top: 2.5rem;
+    margin: 2rem 1rem;
 
     .subtitle-blue {
       margin: 2rem 0;
@@ -33,6 +39,18 @@
     }
 
     .experience-content {
+      @media (max-width: 762px) {
+        header {
+          display: flex;
+          flex-direction: column !important;
+          text-align: center;
+
+          h4 {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+
       header {
         display: flex;
         flex-direction: row;

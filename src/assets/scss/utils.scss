@@ -47,3 +47,9 @@
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .section-title {
+    margin: 2rem 1rem;
+  }
+}
