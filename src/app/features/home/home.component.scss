@@ -18,6 +18,23 @@ main {
   }
 
   //section hero
+
+  @media (max-width: 828px) {
+    .hero {
+      margin-top: 6rem !important;
+
+      .introduction {
+        margin: 2rem;
+      }
+    }
+
+    .hero-image {
+      width: 55%;
+      right: 1rem !important;
+      top: -6rem !important;
+    }
+  }
+
   .hero {
     margin-top: 12rem;
     min-height: 28rem;
@@ -42,10 +59,6 @@ main {
     }
 
     @media (max-width: 858px) {
-      .hero-image {
-        width: 55%;
-        right: 1rem;
-      }
     }
   }
 

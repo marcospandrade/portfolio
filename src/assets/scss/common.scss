@@ -8,11 +8,13 @@
   font-weight: 300;
 }
 
-.actions {
-  margin-bottom: 2rem;
-}
-
 @media (max-width: 768px) {
+  .actions {
+    margin: 0 0 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
   .description-text {
     margin: 0 1rem;
     text-align: justify;

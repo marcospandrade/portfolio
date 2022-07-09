@@ -2,47 +2,16 @@ nav {
   padding-top: 2.5rem;
   justify-content: flex-end;
 
-  #portfolioNavbar {
-    width: 100%;
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
-  }
-
   .navbar-toggler {
     margin-right: 2rem;
   }
 }
 
-@media (min-width: 1200px) {
-  #portfolioNavbar {
-    max-width: 1140px;
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: end;
   }
 }
-@media (min-width: 992px) {
-  #portfolioNavbar {
-    width: 100%;
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
-
-    max-width: 990px;
-  }
-}
-// @media (max-width: 768px) {
-//   #portfolioNavbar {
-//     width: 100%;
-//     padding-right: var(--bs-gutter-x, 0.75rem);
-//     padding-left: var(--bs-gutter-x, 0.75rem);
-//     max-width: 768px;
-//   }
-// }
-// @media (max-width: 576px) {
-//   #portfolioNavbar {
-//     width: 100%;
-//     padding-right: var(--bs-gutter-x, 0.75rem);
-//     padding-left: var(--bs-gutter-x, 0.75rem);
-//     max-width: 576px;
-//   }
-// }
 
 .title-portfolio {
   font-size: 1.5rem;
