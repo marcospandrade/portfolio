@@ -40,15 +40,22 @@ main {
       top: 3rem;
       z-index: -999;
     }
+
+    @media (max-width: 858px) {
+      .hero-image {
+        width: 55%;
+        right: 1rem;
+      }
+    }
   }
 
   //section about-me
   .about-me {
     background-color: var(--dark-200);
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // grid-template-rows: 1fr;
 
     span {
       font-size: 1.25rem;
@@ -58,6 +65,12 @@ main {
 
     .profile-photo {
       border-radius: 0.5rem;
+    }
+    @media (max-width: 768px) {
+      .profile-photo {
+        width: 60%;
+        height: 90%;
+      }
     }
 
     .icons-social-media {
