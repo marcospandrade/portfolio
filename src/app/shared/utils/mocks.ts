@@ -91,7 +91,7 @@ export const projects: IProject[] = [
       "Blog utilizando os conceitos de SSR e SSG contendo testes unitários e integração com o Prismic CMS. Utilizado hoje para salvar conteúdos estudados.",
     stacks: ["React js", "Next", "HTML", "CSS", "JS"],
     url_repo: "https://github.com/marcospandrade/spacetraveling-blog",
-    image: "/assets/images/projects/spacetraveling.png",
+    image: "./assets/images/projects/spacetraveling.png",
   },
   {
     id: 4,
