@@ -1,0 +1,22 @@
+.description-text {
+  max-width: 35rem;
+
+  text-align: justify;
+  color: var(--gray-light);
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .actions {
+    margin: 0 0 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .description-text {
+    margin: 0 1rem;
+    text-align: justify;
+  }
+}

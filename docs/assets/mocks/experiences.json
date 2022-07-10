@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "company": "Americanas S.A",
+    "position": "Software Engineer",
+    "startDate": "Fevereiro/2022",
+    "endDate": "Julho/2022",
+    "description": "Atuei no time do Planck dentro da Americanas, que é o time responsável pelo projeto que gerencia toda a logística da Americanas S.A. Tenho a oportunidade de estar trabalhando com a migração do sistema legado para a arquitetura de Microfrontend utilizando Reactjs."
+  },
+  {
+    "id": 2,
+    "company": "Pitang Agile IT",
+    "position": "Frontend Developer",
+    "startDate": "Fevereiro/2021",
+    "endDate": "Fevereiro/2022",
+    "description": "Participo de uma célula ágil desenvolvendo front end em Angular e Reactjs em um projeto para a Propig Credmoura e atuo também alocado no cliente no desenvovilmento e manutenção do sistema legado Credmoura utilizando Javascript e Jquery."
+  },
+  {
+    "id": 3,
+    "company": "Freelancer",
+    "position": "Frontend",
+    "startDate": "Janeiro/2021",
+    "endDate": "Atualmente",
+    "description": "Desenvolvi o projeto Vet4all que está sendo lançado em parceria com a Pitang Agile utilizando React Native e React js e também desenvolvi o sistema do Agil Web junto ao grupo Connor utilizando Angular 13."
+  },
+  {
+    "id": 4,
+    "company": "Leiloaê",
+    "position": "Cofounder | CTO",
+    "startDate": "Julho/2018",
+    "endDate": "Julho/2021",
+    "description": "A Leiloaê é uma plataforma que serve para conexão de vendedores e compradores de bovinos. Atua com foco na comercialização de bovinos através do marketplace e leilão virtual."
+  },
+  {
+    "id": 5,
+    "company": "Leadfinder",
+    "position": "Frontend Developer",
+    "startDate": "Agosto/2020",
+    "endDate": "Fevereiro/2021",
+    "description": "Atuei com frontend na construção da Plataforma Nekta que possibilita a conexão de indústrias da área de construção civil. E atuei também no desenvolvimento e análise de requisitos de uma plataforma para recrutamento e seleção de talentos para empresas, chamado Joobis."
+  },
+  {
+    "id": 6,
+    "company": "Ciss S.A",
+    "position": "Intern | Implantation Analyst",
+    "startDate": "Agosto/2016",
+    "endDate": "Novembro/2017",
+    "description": "Iniciei como estagiário backend atuando com Java e um pouco de Flex. Depois migrei para o setor de implantação para lidar com uma integração uruguaia chamada Scanntech. Tive bastante contato com Suporte Técnico, SQL e DB2"
+  }
+]
