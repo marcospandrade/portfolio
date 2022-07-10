@@ -1,8 +1,7 @@
 import { map, Observable } from "rxjs";
 import { Component, OnInit } from "@angular/core";
 import { HomeService } from "../../service/home.service";
-import { Experience, IExperience } from "src/app/features/models/Experience";
-
+import { IExperience } from "src/app/features/models/Experience";
 
 @Component({
   selector: "app-experiences",

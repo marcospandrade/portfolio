@@ -27,12 +27,11 @@
           <p class="description-text">
             {{ project.description }}
           </p>
-
-          <div class="used-stacks">
-            <span>Tecnologias:</span>
-            <div>
-              <span *ngFor="let stack of project.stacks">=> {{ stack }} </span>
-            </div>
+        </div>
+        <div class="used-stacks">
+          <span>Tecnologias:</span>
+          <div>
+            <span *ngFor="let stack of project.stacks">=> {{ stack }} </span>
           </div>
         </div>
 
@@ -40,7 +39,7 @@
           class="btn btn-gradient-purple-to-blue"
           (click)="handleRedirectToProject(project.url_repo)"
         >
-          <img src="../../../assets/icons/link.svg" alt="Icone de Link" />
+          <img src="/assets/icons/link.svg" alt="Icone de Link" />
           Visualizar
         </button>
       </div>

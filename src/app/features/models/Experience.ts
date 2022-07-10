@@ -1,5 +1,5 @@
 export interface IExperience {
-  id: 1;
+  id: number;
   company: string;
   position: string;
   startDate: string;
