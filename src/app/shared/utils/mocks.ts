@@ -73,7 +73,7 @@ export const projects: IProject[] = [
       "Stripe",
     ],
     url_repo: "https://github.com/marcospandrade/ignews-next",
-    image: "/assets/images/projects/ignews.png",
+    image: "./assets/images/projects/ignews.png",
   },
   {
     id: 2,
@@ -82,7 +82,7 @@ export const projects: IProject[] = [
       "Aplicação mobile que serve como agendador de partidas com integração ao Discord para seleção e redirecionamento para o servidor desejado.",
     stacks: ["React Native", "Discord API", "Android"],
     url_repo: "https://github.com/marcospandrade/gameplay-react-native",
-    image: "/assets/images/projects/gameplay.png",
+    image: "./assets/images/projects/gameplay.png",
   },
   {
     id: 3,
@@ -100,7 +100,7 @@ export const projects: IProject[] = [
       "Aplicação de widget para feedbacks de problemas, ideias e sugestões em sites web, que envia a descrição mais uma captura da tela",
     stacks: ["React js", "HTML", "CSS"],
     url_repo: "https://github.com/marcospandrade/feedget-web",
-    image: "/assets/images/projects/feedget-web.png",
+    image: "./assets/images/projects/feedget-web.png",
   },
   {
     id: 5,
@@ -109,7 +109,7 @@ export const projects: IProject[] = [
       "Backend para o Feedget Web feito utilizando conceitos de SOLID, com integração para envio de email e testes unitários da funcionalidade principal de envio de feedback.",
     stacks: ["Node.js", "Express", "Prisma", "SOLID", "Jest"],
     url_repo: "https://github.com/marcospandrade/feedget-server",
-    image: "/assets/images/projects/feedget-server.png",
+    image: "./assets/images/projects/feedget-server.png",
   },
   {
     id: 6,
@@ -118,7 +118,7 @@ export const projects: IProject[] = [
       "Plataforma de teleatendimento para veterinários e donos de pet. Com features de identificação de clínicas no mapa e chamada de vídeo em tempo real.",
     stacks: ["React js", "React Native", "Android", "iOS", "GCP"],
     url_repo: "https://vet4all.com.br",
-    image: "/assets/images/projects/vet4all.png",
+    image: "./assets/images/projects/vet4all.png",
   },
   {
     id: 7,
@@ -127,6 +127,6 @@ export const projects: IProject[] = [
       "Aplicação web para demonstração dos projetos pessoais desenvolvidos ao longo da carreira.",
     stacks: ["HTML", "CSS", "JS", "Angular 13"],
     url_repo: "https://github.com/marcospandrade/portfolio",
-    image: "/assets/images/projects/portfolio.png",
+    image: "./assets/images/projects/portfolio.png",
   },
 ];
