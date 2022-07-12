@@ -9,7 +9,7 @@
 
     @media (max-width: 768px) {
       .list-projects {
-        grid-template-columns: 1fr !important;
+        // grid-template-columns: 1fr !important;
         text-align: center;
       }
 
@@ -20,17 +20,8 @@
       }
     }
 
-    .list-projects {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      column-gap: 4rem;
-      justify-content: end;
-
-      margin-top: 3.75rem;
-
-      .project {
-        margin-bottom: 4rem;
-      }
+    .project {
+      margin-bottom: 4rem;
     }
 
     .project-image {
