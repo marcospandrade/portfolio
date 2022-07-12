@@ -9,8 +9,8 @@
   <div class="container">
     <p class="section-title">PROJETOS</p>
 
-    <div class="list-projects">
-      <div class="project" *ngFor="let project of listProjects$ | async">
+    <div class="row">
+      <div class="project col-md-6 col-sm-12 mb-4" *ngFor="let project of listProjects$ | async">
         <img
           class="project-image"
           src="{{ project.image }}"
@@ -20,7 +20,7 @@
         />
 
         <div
-          class="d-flex flex-column justify-content-center align-items-center"
+          class="d-flex flex-column justify-content-center"
         >
           <h3>{{ project.name }}</h3>
 
@@ -43,6 +43,7 @@
           Visualizar
         </button>
       </div>
+      
     </div>
   </div>
 </section>

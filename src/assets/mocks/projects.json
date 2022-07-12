@@ -7,7 +7,6 @@
       "Next",
       "React",
       "PrismicCMS",
-      "HTML",
       "CSS Modules",
       "FaunaDB",
       "Stripe"
@@ -42,7 +41,7 @@
   {
     "id": 5,
     "name": "Feedget Server",
-    "description": "Backend para o Feedget Web feito utilizando conceitos de SOLID, com integração para envio de email e testes unitários da funcionalidade principal de envio de feedback.",
+    "description": "Backend para o Feedget Web feito utilizando SOLID, com integração para envio de email e testes unitários da funcionalidade principal de envio de feedback.",
     "stacks": ["Node.js", "Express", "Prisma", "SOLID", "Jest"],
     "url_repo": "https://github.com/marcospandrade/feedget-server",
     "image": "/assets/images/projects/feedget-server.png"
